@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahr-ie-GWk">
+                                <rect key="frame" x="137" y="414" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="ECl-NU-1V4"/>
+                                    <constraint firstAttribute="height" constant="24" id="SBu-O7-K2A"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="butPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Smm-OO-hpC"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="erb-Vb-cbc">
+                                <rect key="frame" x="-17" y="444" width="354" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="MU"/>
+                                    <segment title="Asernal"/>
+                                    <segment title="Liverpool"/>
+                                    <segment title="MC"/>
+                                    <segment title="Barca"/>
+                                </segments>
+                                <connections>
+                                    <action selector="butSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="QY3-et-jay"/>
+                                </connections>
+                            </segmentedControl>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qjX-Us-Mk5">
+                                <rect key="frame" x="0.0" y="-30" width="320" height="442"/>
+                                <animations/>
+                            </mapView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qjX-Us-Mk5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="0sF-oZ-6ZR"/>
+                            <constraint firstItem="erb-Vb-cbc" firstAttribute="top" secondItem="Ahr-ie-GWk" secondAttribute="bottom" id="58s-8u-tkc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="erb-Vb-cbc" secondAttribute="bottom" constant="8" id="F6W-gq-4yI"/>
+                            <constraint firstItem="Ahr-ie-GWk" firstAttribute="top" secondItem="qjX-Us-Mk5" secondAttribute="bottom" constant="2" id="LaX-OM-IQU"/>
+                            <constraint firstItem="qjX-Us-Mk5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Qmf-FX-sPm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qjX-Us-Mk5" secondAttribute="trailing" constant="-20" id="TGj-3g-sNn"/>
+                            <constraint firstItem="Ahr-ie-GWk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKI-V9-99V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="erb-Vb-cbc" secondAttribute="trailing" constant="-20" id="bbf-7q-ZBK"/>
+                            <constraint firstItem="erb-Vb-cbc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="qE3-o4-Wh5"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="outMap" destination="qjX-Us-Mk5" id="bE9-c1-rT8"/>
+                        <outlet property="outPause" destination="Ahr-ie-GWk" id="Psu-Cf-tue"/>
+                        <outlet property="outSegment" destination="erb-Vb-cbc" id="CPZ-EP-Tnr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="135"/>
+        </scene>
+    </scenes>
+</document>

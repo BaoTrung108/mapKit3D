@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5FB7D021C5AFF4A00357BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D011C5AFF4A00357BAE /* main.m */; };
+		F5FB7D051C5AFF4A00357BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D041C5AFF4A00357BAE /* AppDelegate.m */; };
+		F5FB7D081C5AFF4A00357BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D071C5AFF4A00357BAE /* ViewController.m */; };
+		F5FB7D0B1C5AFF4A00357BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D091C5AFF4A00357BAE /* Main.storyboard */; };
+		F5FB7D0D1C5AFF4A00357BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D0C1C5AFF4A00357BAE /* Assets.xcassets */; };
+		F5FB7D101C5AFF4A00357BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D0E1C5AFF4A00357BAE /* LaunchScreen.storyboard */; };
+		F5FB7D181C5AFF6D00357BAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB7D171C5AFF6D00357BAE /* MapKit.framework */; };
+		F5FB7D1C1C5B025200357BAE /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D191C5B025200357BAE /* music.mp3 */; };
+		F5FB7D1D1C5B025200357BAE /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D1A1C5B025200357BAE /* pause.png */; };
+		F5FB7D1E1C5B025200357BAE /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D1B1C5B025200357BAE /* play.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5FB7CFD1C5AFF4A00357BAE /* Mapkit3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapkit3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FB7D011C5AFF4A00357BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5FB7D031C5AFF4A00357BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5FB7D041C5AFF4A00357BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5FB7D061C5AFF4A00357BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5FB7D071C5AFF4A00357BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5FB7D0A1C5AFF4A00357BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5FB7D0C1C5AFF4A00357BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5FB7D0F1C5AFF4A00357BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5FB7D111C5AFF4A00357BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FB7D171C5AFF6D00357BAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F5FB7D191C5B025200357BAE /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../music.mp3; sourceTree = "<group>"; };
+		F5FB7D1A1C5B025200357BAE /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../pause.png; sourceTree = "<group>"; };
+		F5FB7D1B1C5B025200357BAE /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../play.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5FB7CFA1C5AFF4900357BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB7D181C5AFF6D00357BAE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5FB7CF41C5AFF4900357BAE = {
+			isa = PBXGroup;
+			children = (
+				F5FB7D171C5AFF6D00357BAE /* MapKit.framework */,
+				F5FB7CFF1C5AFF4A00357BAE /* Mapkit3D */,
+				F5FB7CFE1C5AFF4A00357BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FB7CFE1C5AFF4A00357BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB7CFD1C5AFF4A00357BAE /* Mapkit3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FB7CFF1C5AFF4A00357BAE /* Mapkit3D */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB7D031C5AFF4A00357BAE /* AppDelegate.h */,
+				F5FB7D041C5AFF4A00357BAE /* AppDelegate.m */,
+				F5FB7D061C5AFF4A00357BAE /* ViewController.h */,
+				F5FB7D071C5AFF4A00357BAE /* ViewController.m */,
+				F5FB7D091C5AFF4A00357BAE /* Main.storyboard */,
+				F5FB7D0C1C5AFF4A00357BAE /* Assets.xcassets */,
+				F5FB7D0E1C5AFF4A00357BAE /* LaunchScreen.storyboard */,
+				F5FB7D111C5AFF4A00357BAE /* Info.plist */,
+				F5FB7D001C5AFF4A00357BAE /* Supporting Files */,
+			);
+			path = Mapkit3D;
+			sourceTree = "<group>";
+		};
+		F5FB7D001C5AFF4A00357BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB7D191C5B025200357BAE /* music.mp3 */,
+				F5FB7D1A1C5B025200357BAE /* pause.png */,
+				F5FB7D1B1C5B025200357BAE /* play.png */,
+				F5FB7D011C5AFF4A00357BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5FB7CFC1C5AFF4900357BAE /* Mapkit3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FB7D141C5AFF4A00357BAE /* Build configuration list for PBXNativeTarget "Mapkit3D" */;
+			buildPhases = (
+				F5FB7CF91C5AFF4900357BAE /* Sources */,
+				F5FB7CFA1C5AFF4900357BAE /* Frameworks */,
+				F5FB7CFB1C5AFF4900357BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapkit3D;
+			productName = Mapkit3D;
+			productReference = F5FB7CFD1C5AFF4A00357BAE /* Mapkit3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5FB7CF51C5AFF4900357BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Trung Bao";
+				TargetAttributes = {
+					F5FB7CFC1C5AFF4900357BAE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F5FB7CF81C5AFF4900357BAE /* Build configuration list for PBXProject "Mapkit3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5FB7CF41C5AFF4900357BAE;
+			productRefGroup = F5FB7CFE1C5AFF4A00357BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5FB7CFC1C5AFF4900357BAE /* Mapkit3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5FB7CFB1C5AFF4900357BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB7D1C1C5B025200357BAE /* music.mp3 in Resources */,
+				F5FB7D101C5AFF4A00357BAE /* LaunchScreen.storyboard in Resources */,
+				F5FB7D1D1C5B025200357BAE /* pause.png in Resources */,
+				F5FB7D0D1C5AFF4A00357BAE /* Assets.xcassets in Resources */,
+				F5FB7D0B1C5AFF4A00357BAE /* Main.storyboard in Resources */,
+				F5FB7D1E1C5B025200357BAE /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5FB7CF91C5AFF4900357BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB7D081C5AFF4A00357BAE /* ViewController.m in Sources */,
+				F5FB7D051C5AFF4A00357BAE /* AppDelegate.m in Sources */,
+				F5FB7D021C5AFF4A00357BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5FB7D091C5AFF4A00357BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FB7D0A1C5AFF4A00357BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5FB7D0E1C5AFF4A00357BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FB7D0F1C5AFF4A00357BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5FB7D121C5AFF4A00357BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5FB7D131C5AFF4A00357BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5FB7D151C5AFF4A00357BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mapkit3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TrungBao.Mapkit3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5FB7D161C5AFF4A00357BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mapkit3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TrungBao.Mapkit3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5FB7CF81C5AFF4900357BAE /* Build configuration list for PBXProject "Mapkit3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FB7D121C5AFF4A00357BAE /* Debug */,
+				F5FB7D131C5AFF4A00357BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FB7D141C5AFF4A00357BAE /* Build configuration list for PBXNativeTarget "Mapkit3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FB7D151C5AFF4A00357BAE /* Debug */,
+				F5FB7D161C5AFF4A00357BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5FB7CF51C5AFF4900357BAE /* Project object */;
+}
